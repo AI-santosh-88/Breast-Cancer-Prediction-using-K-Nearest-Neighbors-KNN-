@@ -39,7 +39,25 @@ The project explores different values of k (3 to 9) to find the optimal KNN mode
   * A simple interface where users can input features like clump thickness, cell size/shape uniformity, bare nuclei, etc.
   * The app then predicts whether the tumor is benign or malignant using the saved KNN model.
 
+# Model Results:
+* ## Best Model Accuracy: 
+ 97.86% (with k=6 and k=7)
 
+* ## Confusion Matrix for k=7:
+
+    [[83 2] 
+    [ 2 53]]
+* ## Precision:
+*  97.65%
+
+* ## Recall:
+* 97.65%
+
+* ## F1-Score:
+* 97.65%
+
+* ##  Null Accuracy:
+*  60.71%
 
 
 
